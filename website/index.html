@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apogee Research-X Nexus | Photonics · AI · Education</title>
+    <meta name="description" content="Apogee Research-X Nexus Pvt. Ltd. — Pioneering research in Photonic IC fabrication, Topological Devices, and AI. GATE Electronics coaching & Quantronix Nexus Blog.">
+    <meta name="keywords" content="ARXN, Apogee Research-X Nexus, Photonic IC, Topological Devices, AI Research, GATE Coaching, Electronics Engineering, Delhi">
+    <meta name="author" content="Apogee Research-X Nexus Pvt. Ltd.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Apogee Research-X Nexus | Photonics · AI · Education">
+    <meta property="og:description" content="Pioneering research in Photonic IC fabrication, Topological Devices, and AI.">
+    <meta property="og:type" content="website">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Orbitron:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===================== NAVBAR ===================== -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <img src="assets/logo.png" alt="ARXN Logo" class="nav-logo-img">
+                <span class="nav-logo-text">ARXN</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#collaborations" class="nav-link">Collaborations</a></li>
+                <li><a href="#careers" class="nav-link">Careers</a></li>
+                <li><a href="#contact" class="nav-link nav-link-cta">Contact Us</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero-bg.png" alt="" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <canvas id="particle-canvas" class="particle-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Advancing Frontiers Since 2025
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">Apogee</span>
+                <span class="hero-title-line gradient-text">Research-X Nexus</span>
+            </h1>
+            <p class="hero-subtitle">Pioneering research in <strong>Photonic IC Fabrication</strong>, <strong>Topological Devices</strong>, and <strong>AI</strong> — while shaping the next generation of electronics engineers.</p>
+            <div class="hero-actions">
+                <a href="#research" class="btn btn-primary" id="hero-cta-research">
+                    Explore Research
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#contact" class="btn btn-outline" id="hero-cta-contact">
+                    Get In Touch
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Research Verticals</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Students Mentored</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-label">Active Proposals</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" id="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">About <span class="gradient-text">ARXN</span></h2>
+            </div>
+            <div class="about-grid" data-animate>
+                <div class="about-text">
+                    <p class="about-lead">Apogee Research-X Nexus Pvt. Ltd. is a Delhi-based deep-tech research company founded in August 2025, operating at the intersection of <em>photonics</em> and <em>AI-driven fabrication</em>.</p>
+                    <p>We lead cutting-edge research activities in AI and photonic IC fabrication while preparing technical research proposals for government funding in photonic IC fabrication and topological device research. Our multidisciplinary approach bridges fundamental physics with practical device engineering.</p>
+                    <p>Beyond research, we are deeply committed to <strong>engineering education</strong> — mentoring students preparing for India's most competitive examinations and publishing high-quality revision content through our blog platform.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <strong>Founded</strong>
+                                <span>August 2025, Delhi</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Focus</strong>
+                                <span>Research, Education & Publications</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div>
+                                <strong>Leadership</strong>
+                                <span>Director/Founder & Freelance Tutor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="mission-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="url(#grad1)" stroke-width="1.5">
+                                <defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#D6BCFA"/><stop offset="100%" style="stop-color:#805AD5"/></linearGradient></defs>
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                            </svg>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To advance India's semiconductor photonics ecosystem through world-class research, strategic government partnerships, and the cultivation of a new generation of electronics engineers equipped to innovate at the nanoscale.</p>
+                    </div>
+                    <div class="about-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="mission-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="url(#grad1)" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                            </svg>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To become a globally recognized nexus of photonic and AI research — bridging academia, industry, and policy to accelerate technology transfer from lab to fab.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== RESEARCH ===================== -->
+    <section id="research" class="section research">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Our Core Work</span>
+                <h2 class="section-title">Research <span class="gradient-text">Verticals</span></h2>
+                <p class="section-desc">Our research spans three interconnected verticals — each pushing the boundaries of what's possible in photonics, AI, and integrated device engineering.</p>
+            </div>
+            <div class="research-grid" data-animate>
+                <div class="research-card glass-card" id="research-photonic-ic">
+                    <div class="card-glow"></div>
+                    <div class="research-card-number">01</div>
+                    <div class="research-card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+                    </div>
+                    <h3>Photonic IC Fabrication</h3>
+                    <p>Developing next-generation photonic integrated circuits with novel waveguide architectures, leveraging silicon photonics and III-V material platforms for high-performance optical processing.</p>
+                    <span class="research-tag">Priority Focus</span>
+                </div>
+                <div class="research-card glass-card" id="research-topological">
+                    <div class="card-glow"></div>
+                    <div class="research-card-number">02</div>
+                    <div class="research-card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Topological Devices</h3>
+                    <p>Exploring topological insulator-based devices and their applications in robust signal propagation, advanced computing architectures, and novel sensor architectures.</p>
+                    <span class="research-tag">Active Research</span>
+                </div>
+                <div class="research-card glass-card" id="research-ai">
+                    <div class="card-glow"></div>
+                    <div class="research-card-number">03</div>
+                    <div class="research-card-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93"/><path d="M8 6a4 4 0 0 1 8 0"/><path d="M5 11a7 7 0 0 1 14 0"/><line x1="12" y1="16" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/><circle cx="12" cy="14" r="2"/></svg>
+                    </div>
+                    <h3>AI-Driven Research</h3>
+                    <p>Applying machine learning and AI techniques to accelerate photonic device design, optimize fabrication parameters, and discover novel material configurations for integrated photonics.</p>
+                    <span class="research-tag">Cross-Cutting</span>
+                </div>
+            </div>
+            <div class="research-visual" data-animate>
+                <img src="assets/research-photonics.png" alt="Photonic IC Visualization" class="research-img">
+                <div class="research-visual-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="section education">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Empowering Engineers</span>
+                <h2 class="section-title">GATE <span class="gradient-text">Mentorship</span></h2>
+                <p class="section-desc">Concept-focused instruction and exam-oriented problem-solving for GATE 2027 Electronics Engineering aspirants.</p>
+            </div>
+            <div class="education-layout" data-animate>
+                <div class="education-content">
+                    <div class="edu-feature">
+                        <div class="edu-feature-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
+                        </div>
+                        <div>
+                            <h3>Concept-Focused Instruction</h3>
+                            <p>Deep-dive sessions into core Electronics Engineering topics, building strong conceptual foundations aligned with the complete GATE syllabus.</p>
+                        </div>
+                    </div>
+                    <div class="edu-feature">
+                        <div class="edu-feature-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                        </div>
+                        <div>
+                            <h3>Exam-Oriented Problem Solving</h3>
+                            <p>Targeted practice with previous-year questions, mock tests, and curated problem sets developed in collaboration with IIT Delhi faculty.</p>
+                        </div>
+                    </div>
+                    <div class="edu-feature">
+                        <div class="edu-feature-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                        </div>
+                        <div>
+                            <h3>20+ Students Mentored</h3>
+                            <p>Personalized attention with a focused batch size, ensuring every student receives individual guidance through their GATE 2027 preparation journey.</p>
+                        </div>
+                    </div>
+                    <div class="edu-feature">
+                        <div class="edu-feature-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </div>
+                        <div>
+                            <h3>IIT Delhi Collaboration</h3>
+                            <p>Mock tests and question-set refinement in collaboration with Prof. Sujeet Chaudhary, Department of Physics, IIT Delhi, for targeted student evaluation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-visual">
+                    <img src="assets/education-gate.png" alt="GATE Electronics Preparation" class="edu-img">
+                    <div class="edu-img-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section id="publications" class="section publications">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Knowledge Hub</span>
+                <h2 class="section-title">Publications & <span class="gradient-text">Blog</span></h2>
+                <p class="section-desc">Electronics revision and preparation content published through the Quantronix Nexus Blog — your go-to resource for GATE-aligned study material.</p>
+            </div>
+            <div class="publications-grid" data-animate>
+                <div class="pub-card glass-card" id="pub-blog">
+                    <div class="card-glow"></div>
+                    <div class="pub-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Quantronix Nexus Blog</h3>
+                    <p>Comprehensive electronics revision articles, concept breakdowns, and worked examples covering the full GATE Electronics Engineering syllabus.</p>
+                    <a href="https://quantronixnexus.blogspot.com" target="_blank" rel="noopener" class="pub-link" id="pub-blog-link">
+                        Visit Blog
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                    </a>
+                </div>
+
+                <div class="pub-card glass-card" id="pub-research-papers">
+                    <div class="card-glow"></div>
+                    <div class="pub-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                    <h3>Research Proposals</h3>
+                    <p>Technical research proposals for government funding in photonic IC fabrication and topological device research — bridging academic innovation with national technology roadmaps.</p>
+                    <span class="pub-status">In Preparation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== COLLABORATIONS ===================== -->
+    <section id="collaborations" class="section collaborations">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Strategic Partners</span>
+                <h2 class="section-title">Academic <span class="gradient-text">Collaborations</span></h2>
+            </div>
+            <div class="collab-layout" data-animate>
+                <div class="collab-card glass-card" id="collab-iitd">
+                    <div class="card-glow"></div>
+                    <div class="collab-header">
+                        <div class="collab-badge">Academic Partner</div>
+                        <h3>IIT Delhi</h3>
+                        <span class="collab-dept">Department of Physics</span>
+                    </div>
+                    <div class="collab-body">
+                        <p>Collaborating with <strong>Prof. Sujeet Chaudhary</strong>, Professor, Department of Physics, Indian Institute of Technology Delhi, on:</p>
+                        <ul class="collab-list">
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                Mock test design and question-set refinement
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                Targeted student evaluation frameworks
+                            </li>
+                            <li>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                                Performance improvement methodologies
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="collab-plans">
+                    <h3 class="collab-plans-title">Research Focus Areas</h3>
+                    <div class="plan-item">
+                        <div class="plan-marker plan-active"></div>
+                        <div class="plan-content">
+                            <h4>Photonic IC Fabrication</h4>
+                            <p>Advancing integrated photonic circuits with novel waveguide architectures and silicon photonics platforms.</p>
+                        </div>
+                    </div>
+                    <div class="plan-item">
+                        <div class="plan-marker plan-active"></div>
+                        <div class="plan-content">
+                            <h4>Topological Device Research</h4>
+                            <p>Exploring topological insulator-based devices for robust signal propagation and novel sensor architectures.</p>
+                        </div>
+                    </div>
+                    <div class="plan-item">
+                        <div class="plan-marker plan-active"></div>
+                        <div class="plan-content">
+                            <h4>AI-Driven Design & Optimization</h4>
+                            <p>Leveraging machine learning to accelerate device design and optimize fabrication parameters.</p>
+                        </div>
+                    </div>
+                    <div class="plan-item plan-priority">
+                        <div class="plan-marker plan-current"></div>
+                        <div class="plan-content">
+                            <h4>Government Funding Proposals</h4>
+                            <p>Preparing technical research proposals for government funding to support photonic IC and topological device research.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CAREERS ===================== -->
+    <section id="careers" class="section careers">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Join The Team</span>
+                <h2 class="section-title">Careers at <span class="gradient-text">ARXN</span></h2>
+                <p class="section-desc">We are always looking for passionate researchers, engineers, and educators to join our mission in photonics, AI, and electronics.</p>
+            </div>
+            <div class="glass-card" data-animate style="text-align: center; padding: 60px 40px; margin: 0 auto; max-width: 600px;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--silver-light)" stroke-width="1.5" style="margin-bottom: 20px;"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <h3 style="margin-bottom: 16px;">No Open Positions Currently</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 24px;">While we don't have any specific openings at the moment, we love connecting with talented individuals. Send us a message, and we'll reach out if a role opens up.</p>
+                <a href="#contact" class="nav-link-cta" style="display: inline-block;">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header" data-animate>
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+                <p class="section-desc">Interested in research collaboration, GATE mentorship, or learning more about our work? We'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid" data-animate>
+                <form class="contact-form glass-card" id="contact-form">
+                    <div class="card-glow"></div>
+                    <div class="form-group">
+                        <label for="contact-name">Full Name</label>
+                        <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email Address</label>
+                        <input type="email" id="contact-email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subject</label>
+                        <select id="contact-subject" name="subject" required>
+                            <option value="" disabled selected>Select a topic</option>
+                            <option value="research">Research Collaboration</option>
+                            <option value="gate">GATE Mentorship Inquiry</option>
+                            <option value="blog">Blog / Publications</option>
+                            <option value="funding">Funding / Proposals</option>
+                            <option value="careers">Careers / Joining</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Tell us about your inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full" id="contact-submit">
+                        Send Message
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Delhi, India</p>
+                    </div>
+                    <div class="info-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <h4>Blog</h4>
+                        <a href="https://quantronixnexus.blogspot.com" target="_blank" rel="noopener">quantronixnexus.blogspot.com</a>
+                    </div>
+                    <div class="info-card glass-card">
+                        <div class="card-glow"></div>
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <h4>Company</h4>
+                        <p>Apogee Research-X Nexus Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="assets/logo.png" alt="ARXN Logo" class="footer-logo">
+                    <span class="footer-name">Apogee Research-X Nexus</span>
+                    <p class="footer-tagline">Photonics · AI · Education</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Explore</h4>
+                        <a href="#about">About</a>
+                        <a href="#research">Research</a>
+                        <a href="#education">Education</a>
+                        <a href="#careers">Careers</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <a href="#publications">Publications</a>
+                        <a href="https://quantronixnexus.blogspot.com" target="_blank" rel="noopener">Quantronix Blog</a>
+                        <a href="#collaborations">Collaborations</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <a href="#contact">Contact Us</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Apogee Research-X Nexus Pvt. Ltd. All rights reserved.</p>
+                <p class="footer-location">Delhi, India</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

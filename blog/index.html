@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantronix Nexus Blog | Electronics & Innovation</title>
+    
+    <!-- Fonts: Inter & Orbitron -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <i data-feather="cpu" style="width: 28px; height: 28px; color: var(--accent-lavender);"></i>
+                <span>Quantronix</span> Nexus
+            </a>
+            <a href="../website/index.html" class="nav-logo-back">
+                <i data-feather="arrow-left" style="width: 14px; height: 14px; display: inline-block; vertical-align: middle; margin-right: 4px;"></i>
+                Back to ARXN
+            </a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="badge animate">Electronics Learning Hub</span>
+                    <h1 class="title animate delay-1">
+                        Core Concepts & <span class="gradient-text">Revision</span><br>
+                        Research & Innovation
+                    </h1>
+                    <p class="subtitle animate delay-2">
+                        A structured platform for students preparing for electronics engineering subjects, competitive exams, and technical interviews. system-wide updates constant under progress.
+                    </p>
+                    
+                    <div class="search-container animate delay-3">
+                        <i data-feather="search" class="search-icon"></i>
+                        <input type="text" id="topicSearch" class="search-input" placeholder="Search revision notes, formulas, or mock tests...">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Section (Prof. Sujeet Chaudhary) -->
+        <section class="featured-section container animate delay-1">
+            <div class="featured-card" data-searchable="Prof Sujeet Chaudhary IIT Delhi Mock Test refinement evaluation">
+                <div class="featured-content">
+                    <div class="featured-label">
+                        <i data-feather="star"></i> FEATURED COLLABORATION
+                    </div>
+                    <h2 class="featured-title">Academia x Industry: Prof. Sujeet Chaudhary</h2>
+                    <p class="featured-excerpt">
+                        Collaborating with Prof. Sujeet Chaudhary (Dept. of Physics, IIT Delhi) on mock tests and question-set refinement to support targeted student evaluation and systematic improvement.
+                    </p>
+                    <div class="featured-meta">
+                        <div class="author-info">
+                            <div class="author-img"><i data-feather="award"></i></div>
+                            <span>Academic Partner: IIT Delhi</span>
+                        </div>
+                        <span>•</span>
+                        <span>Evaluation Expert</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Feed -->
+        <section class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Latest Articles</h2>
+                    <p style="color: var(--text-muted);">Insights into the latest in electronics and research.</p>
+                </div>
+                <!-- <a href="#" class="explore-btn">See all posts <i data-feather="chevron-right"></i></a> -->
+            </div>
+
+            <div class="blog-grid" id="blogGrid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card animate delay-1" data-searchable="Mock Test Strategy Student Evaluation Improvement">
+                    <div class="blog-card-image">
+                        <span class="blog-category">Education</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Strategic Student Evaluation: Beyond the Mock Test</h3>
+                        <p class="blog-excerpt">Exploring how targeted question sets refined by industry experts and academia can identify specific knowledge gaps in electronics revision.</p>
+                        <div class="blog-footer">
+                            <span>April 17, 2026</span>
+                            <span class="explore-btn">Read More <i data-feather="arrow-right" style="width: 14px;"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card animate delay-2" data-searchable="Signals Systems Revision Fundamentals">
+                    <div class="blog-card-image">
+                        <span class="blog-category">Core EE</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Mastering Signals & Systems: A Revision Roadmap</h3>
+                        <p class="blog-excerpt">Understanding the core interplay between continuous-time signals and discrete-time processing for competitive gate evaluations.</p>
+                        <div class="blog-footer">
+                            <span>April 15, 2026</span>
+                            <span class="explore-btn">Read More <i data-feather="arrow-right" style="width: 14px;"></i></span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card animate delay-3" data-searchable="Nexus Improvement Updates 2026">
+                    <div class="blog-card-image">
+                        <span class="blog-category">Updates</span>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="blog-title">Quantronix Nexus: Constantly Under Improvement</h3>
+                        <p class="blog-excerpt">An overview of the upcoming features, interactive circuits, and self-assessment tools coming to the platform this quarter.</p>
+                        <div class="blog-footer">
+                            <span>April 12, 2026</span>
+                            <span class="explore-btn">Read More <i data-feather="arrow-right" style="width: 14px;"></i></span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Mock Tests Section -->
+        <section class="mock-test-section">
+            <div class="container animate delay-1">
+                <div class="section-header">
+                    <div>
+                        <h2 class="section-title">Mock Tests & Evaluators</h2>
+                        <p style="color: var(--text-muted);">Expert-refined question sets for targeted student improvement.</p>
+                    </div>
+                </div>
+                
+                <div class="mock-test-grid">
+                    <div class="test-card" data-searchable="Analog Electronics Mock Test op-amp bjt mosfet">
+                        <div class="test-badge">IIT-D Refined</div>
+                        <h4 class="test-title">Analog Electronics Set Alpha</h4>
+                        <p class="test-meta">45 Questions • 90 Mins</p>
+                    </div>
+                    <div class="test-card" data-searchable="Control Systems Mock Test state-space bode">
+                        <div class="test-badge">New Release</div>
+                        <h4 class="test-title">Control Systems Mastery Test</h4>
+                        <p class="test-meta">30 Questions • 60 Mins</p>
+                    </div>
+                    <div class="test-card" data-searchable="Mathematics Mock Test linear algebra calculus">
+                        <div class="test-badge">Core Subject</div>
+                        <h4 class="test-title">Engineering Mathematics Evaluation</h4>
+                        <p class="test-meta">25 Questions • 45 Mins</p>
+                    </div>
+                    <div class="test-card" data-searchable="Digital Electronics Mock Test logic gates microprocessors">
+                        <div class="test-badge">IIT-D Refined</div>
+                        <h4 class="test-title">Digital Systems & Logic Test</h4>
+                        <p class="test-meta">40 Questions • 75 Mins</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Subject Explorer (Migrated to External Blogspot Data) -->
+        <section class="topics-section container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Subject Explorer</h2>
+                    <p style="color: var(--text-muted);">Core concept revision notes and structured formula summaries.</p>
+                </div>
+            </div>
+
+            <div class="grid" id="topicsGrid">
+                <!-- Analog Electronics -->
+                <a href="https://quantronixnexus.blogspot.com/2026/02/electronics-1.html" class="glass-card animate delay-1" data-title="Analog Electronics" data-searchable="Analog Electronics op-amp bjt mosfet circuits">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="activity"></i></div>
+                    <h3 class="card-title">Analog Electronics</h3>
+                    <p class="card-desc">Deep dive into operational amplifiers, diodes, BJT and MOSFET circuits, and analog signal processing.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Signals & Systems -->
+                <a href="https://quantronixnexus.blogspot.com/2025/10/signals-and-systems-based-on-uploaded.html" class="glass-card animate delay-2" data-title="Signals and Systems" data-searchable="Signals Systems LTI Fourier transforms Z-transform">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="bar-chart-2"></i></div>
+                    <h3 class="card-title">Signals & Systems</h3>
+                    <p class="card-desc">LTI systems, Fourier series, transforms, and Z-transforms for continuous and discrete signals.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Control Systems -->
+                <a href="https://quantronixnexus.blogspot.com/2025/11/control-systems-1.html" class="glass-card animate delay-3" data-title="Control Systems" data-searchable="Control Systems block diagrams state-space bode root-locus">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="sliders"></i></div>
+                    <h3 class="card-title">Control Systems</h3>
+                    <p class="card-desc">Master block diagrams, state-space analysis, root locus, bode plots, and stability criteria.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Digital Electronics -->
+                <a href="https://quantronixnexus.blogspot.com/2025/10/electronics-major-units-are-logic-gates.html" class="glass-card animate delay-1" data-title="Digital Electronics" data-searchable="Digital Electronics logic gates boolean microprocessors">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="cpu"></i></div>
+                    <h3 class="card-title">Digital Electronics</h3>
+                    <p class="card-desc">Logic gates, boolean algebra, combinatorial and sequential circuits, and microprocessors.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Network Theory -->
+                <a href="https://quantronixnexus.blogspot.com/2025/10/networks-network-theory-revision-notes.html" class="glass-card animate delay-2" data-title="Network Theory" data-searchable="Network Theory circuit theorems transient analysis sinusoidal steady-state">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="share-2"></i></div>
+                    <h3 class="card-title">Network Theory</h3>
+                    <p class="card-desc">Circuit theorems, two-port networks, transient analysis, and sinusoidal steady-state revision notes.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Electronic Devices (EDC) -->
+                <a href="https://quantronixnexus.blogspot.com/2025/11/devices-and-circuits-1.html" class="glass-card animate delay-3" data-title="Electronic Devices" data-searchable="Electronic Devices EDC semiconductors pn junctions physics">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="zap"></i></div>
+                    <h3 class="card-title">Electronic Devices</h3>
+                    <p class="card-desc">Physics of semiconductors, PN junctions, and fundamental device mechanics for circuits.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Communication Systems -->
+                <a href="https://quantronixnexus.blogspot.com/2025/12/systems-1.html" class="glass-card animate delay-1" data-title="Communication Systems" data-searchable="Communication Systems modulation information theory coding AM FM">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="radio"></i></div>
+                    <h3 class="card-title">Communication Systems</h3>
+                    <p class="card-desc">Systematic review of AM, FM, digital modulation techniques, and information theory.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Electromagnetics (EMFT) -->
+                <a href="https://quantronixnexus.blogspot.com/2026/01/and-field-theory-1.html" class="glass-card animate delay-2" data-title="Electromagnetics" data-searchable="EMFT Electromagnetics Maxwell's equations antennas transmission lines">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="wifi"></i></div>
+                    <h3 class="card-title">Electromagnetics</h3>
+                    <p class="card-desc">Maxwell's equations, wave propagation, transmission lines, and field theory fundamentals.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+
+                <!-- Engineering Mathematics -->
+                <a href="https://quantronixnexus.blogspot.com/2026/02/mathematics-1.html" class="glass-card animate delay-3" data-title="Engineering Mathematics" data-searchable="Engineering Mathematics linear algebra calculus differential equations">
+                    <div class="card-glow"></div>
+                    <div class="card-icon"><i data-feather="terminal"></i></div>
+                    <h3 class="card-title">Eng. Mathematics</h3>
+                    <p class="card-desc">Linear algebra, calculus, and differential equations tailored for electronics engineering.</p>
+                    <div class="card-footer">
+                        <span class="status"><span class="status-dot"></span> Blogspot</span>
+                        <span class="explore-btn">Read Notes <i data-feather="external-link" style="width: 14px;"></i></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Quantronix Nexus | Powered by Apogee Research-X PVT. LTD. Collaboration with IIT Delhi (Physics Dept).</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Feather Icons
+        feather.replace();
+    </script>
+</body>
+</html>
